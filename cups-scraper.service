@@ -1,0 +1,16 @@
+[Unit]
+Description=Cups Scraper service
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/cups-scraper/target/
+ExecStart=/home/pi/cups-scraper/target/cups-scraper
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+
+[Install]
+WantedBy=multi-user.target

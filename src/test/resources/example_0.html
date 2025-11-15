@@ -1,0 +1,62 @@
+<html style="display: block;"><head>
+    <link rel="stylesheet" href="/cups.css" type="text/css">
+    <link rel="shortcut icon" href="/apple-touch-icon.png" type="image/png">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <meta name="viewport" content="width=device-width">
+    <style>html{display:none;}</style>
+    <script type="text/javascript"><!--
+    /* Only display document if we are not in a frame... */
+    if (self == top) {
+        document.documentElement.style.display = 'block';
+    } else {
+        top.location = self.location;
+    }
+
+    /* Show an error if cookies are disabled */
+    function check_cookies() {
+        if (!navigator.cookieEnabled) {
+            document.getElementById('body').innerHTML = 'This page uses cookies to prevent common cross-site attacks. Please enable cookies in your browser.';
+        }
+    }
+    --></script>
+    <title>Jobs - CUPS 2.4.10</title>
+    <link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><style lang="en" type="text/css" id="dark-mode-native-sheet"></style></head>
+<body onload="check_cookies();" data-new-gr-c-s-check-loaded="8.934.0" data-gr-ext-installed="">
+<div class="cups-header">
+    <ul>
+        <li><a href="https://openprinting.github.io/cups/" target="_blank">OpenPrinting CUPS</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/admin">Administration</a></li>
+        <li><a href="/classes/">Classes</a></li>
+        <li><a href="/help/">Help</a></li>
+        <li><a class="active" href="/jobs/">Jobs</a></li>
+        <li><a href="/printers/">Printers</a></li>
+    </ul>
+</div>
+<div class="cups-body">
+    <div class="row">
+        <h1>Jobs</h1>
+        <form action="/jobs/" method="GET">
+
+
+
+            <p align="CENTER"><b>Search in
+                Jobs:</b>
+                <input type="SEARCH" name="QUERY" value="" size="40" placeholder="" autosave="org.cups.jobs" results="20"> <input type="SUBMIT" value="Search"> <input type="SUBMIT" name="CLEAR" value="Clear"></p>
+
+        </form>
+
+        <form action="/jobs" method="GET"><input type="HIDDEN" name="which_jobs" value="completed"><input type="SUBMIT" value="Show Completed Jobs"></form>
+        <form action="/jobs" method="GET"><input type="HIDDEN" name="which_jobs" value="all"><input type="SUBMIT" value="Show All Jobs"></form>
+
+        <p align="CENTER">Active jobs listed in processing order▼; held jobs appear first.</p>
+
+    </div>
+</div>
+<div class="cups-footer">Copyright © 2021-2023 OpenPrinting. All rights reserved.</div>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
